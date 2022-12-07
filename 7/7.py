@@ -17,6 +17,7 @@ def populate_folders_dict(data):
         if line[0].isdigit():
             folders[curr_line]["size"] += int(line.split(' ')[0])
     return folders
+
 def backtrack_sizes(folders):
     Q = [key for key in folders.keys() if not folders[key]['to']]
 
