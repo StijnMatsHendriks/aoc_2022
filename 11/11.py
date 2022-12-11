@@ -1,4 +1,3 @@
-import re
 from functools import partial
 from tqdm import tqdm
 import gc
@@ -12,7 +11,6 @@ def decrease_worry_level(worry_number, method):
         return int(worry_number/3)
 
 def parse_text(text):
-
     monkey = text.split('\n')
     starting_items = [int(char) for char in monkey[1].split(': ')[1].split(', ')]
     div_num = int(monkey[3].split(' ')[-1])
@@ -49,9 +47,6 @@ class Monkey:
         self.inspected_items = 0
         self.method = method
 
-    def list_items(self):
-        return self.starting_items
-
     def exchange_item(self, item, monkey):
         self.throw_item()
         monkeys[monkey].catch_item(item)
@@ -80,10 +75,7 @@ class Monkey:
             gc.collect()
 
     def test(self, num):
-        if num % self.div_num == 0:
-            return self.div_true
-        else:
-            return self.div_false
+        return self.div_true if num % self.div_num == 0 else self.div_false
 
 if __name__ == "__main__":
     data = open('input.txt').read().split('\n\n')
@@ -91,7 +83,7 @@ if __name__ == "__main__":
 
     global lcm
     lcm = math.lcm(*[monkey.div_num for monkey in monkeys.values()])
-    num_rounds = 10000
+    num_rounds = 20
     num_monkeys = len(data)
 
     for round in tqdm(range(num_rounds)):
@@ -99,10 +91,5 @@ if __name__ == "__main__":
             monkeys[monkey].inspect_items()
 
     inspected_items = sorted([(monkeys[monkey].inspected_items, monkey) for monkey in range(num_monkeys)])
-
-    print(inspected_items)
     a = inspected_items[-2][0] * inspected_items[-1][0]
     print(a)
-
-
-

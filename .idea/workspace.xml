@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c7be819-ab11-41e9-a2a4-53e0c6d2a4d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/11/11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11/test_input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11/11.py" beforeDir="false" afterPath="$PROJECT_DIR$/11/11.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +87,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/11/11.py</url>
-          <line>7</line>
+          <line>6</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
