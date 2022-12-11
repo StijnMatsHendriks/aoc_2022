@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c7be819-ab11-41e9-a2a4-53e0c6d2a4d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/10/10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10/test_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9/9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9/test_input2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/test_input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +29,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/stijn/Documents/aoc_2022/10/10.py",
+    "last_opened_file_path": "C:/Users/stijn/Documents/aoc_2022/11/11.py",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -50,11 +48,11 @@
       </envs>
       <option name="SDK_HOME" value="C:\Users\stijn\Documents\aoc_2022\venv\Scripts\python.exe" />
       <option name="SDK_NAME" value="Python 3.11 (aoc_2022)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10/10.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11/11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,17 +82,23 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <condition expression="knots[2] == (2,1)" language="Python" />
-          <url>file://$PROJECT_DIR$/9/9.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/10/10.py</url>
           <line>34</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/11/11.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>
